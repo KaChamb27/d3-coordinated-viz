@@ -1,0 +1,124 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #999;
+    text-shadow: 1px 1px 2px #253313;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-family: sans-serif;
+    color: #1E5217;
+    text-shadow: 1px 1px 2px #253313;
+    margin: 4px;
+}
+
+p {
+    font-family: sans-serif;
+    color: #254513;
+    padding: 1px;
+    margin: 2px;
+}
+
+.map {
+    stroke: #000;
+    stroke-width: 1px;
+    margin: 10px 0 0 20px;
+}
+
+.chart {
+    float: right;
+    margin: 7px 20px 0 0;
+}
+
+.chartTitle {
+    fill: #1E5217;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.chartBackground {
+    fill: black;
+}
+
+.chartFrame {
+    fill:none;
+    stroke: #254513;
+    stroke-width: 3px;
+    shape-rendering: crispEdges;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #254513;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 1em;
+    fill: #254513;
+}
+
+.numbers {
+    fill: white;
+    font-family: sans-serif;
+}
+
+.counties {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 0.75px;
+    stroke-linecap: round;
+}
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width:100px;
+    color: #999;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
+}
+
+.dropdown {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 2px;
+    border: 1px solid #999;
+    box-shadow: 2px 2px 4px #999;
+}
+
+#metainfo {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+    font-family: sans-serif;
+    font-size 0.9em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+option {
+    font-weight: normal;
+}
